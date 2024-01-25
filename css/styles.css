@@ -11,6 +11,11 @@
 }
 
 /*--------------NAV*/
+.logo {
+    opacity: 0.5;
+  }
+
+  
 .nav-link{
     color: #FF40B4; 
     font-weight: bold;
@@ -31,15 +36,15 @@ footer {
     font-family:  'kaisei tokumin', serif ;
 }
   
+.main_{
+    padding-top: 30px;
+}
 /*-------------Home*/
 .pagina-inicial {
     background-color: #FFF78C;
 }
 
-.article-home p{
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-}
+
 
 .container {
     margin-top: 20px; /* Espaçamento acima do conteúdo */
@@ -60,18 +65,21 @@ footer {
         }
     }
 /* ----------------------------texto*/
-.article-home{
+.article-text{
     font-family: 'Alexandria', Arial, Helvetica, sans-serif;
+    animation: deslocar 1s ease-in-out;
 }
 
-.article-home h2{
+.article-text h2{
     font-size: 50px;
     margin-bottom: 10px;
     color: #FF40B4;
 }
-.texto-deslocamento {
-    animation: deslocar 1s ease-in-out;
+.article-text p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
+
 
 @keyframes deslocar {
     from {
@@ -86,3 +94,12 @@ footer {
 
 
 /*--------------------- personagens*/
+
+.img-psn{
+    padding-top: 90px;
+  
+}
+
+.container1{
+    padding: 3%;
+}
